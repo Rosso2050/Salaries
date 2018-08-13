@@ -17,6 +17,7 @@ class CreateSalariesTable extends Migration
             $table->increments('id');
             $table->text('year');
             $table->text('month');
+            $table->integer('monthNum');
             $table->text('salary_pay_day');
             $table->text('bounce_pay_day');
             $table->integer('salary_total');
